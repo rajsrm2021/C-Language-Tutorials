@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{
+    int n , m , sum , diff;
+    float a,b , fsum , fdiff;
+    
+    
+    scanf("%d %d",&n , &m);
+    scanf("%f %f",&a , &b);
+    
+    sum=n+m;
+    diff=n-m;
+    
+    fsum=a+b;
+    fdiff=a-b;
+    
+    printf("%d %d",sum,diff);
+    printf("\n");
+    printf("%.1f %.1f",fsum,fdiff);
+	
+    
+    return 0;
+}
