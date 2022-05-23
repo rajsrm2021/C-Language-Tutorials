@@ -1,0 +1,60 @@
+/*Kate and her 7-year-old sister Tina were playing a spelling game. Kate will tell a number and
+Tina has to find the corresponding month and should spell the month. Can you write a C
+program to automate it? Accept a month in digit from the user. Display the corresponding
+month in words. If the number is not between 1 and 12 display the message “Invalid Month”.*/
+
+#include<stdio.h>
+
+int main(int argc, char const *argv[])
+{
+    int n;
+    printf("Enter the number : ");
+    scanf("%d",&n);
+
+    if (n==1)
+    {
+        printf(" The Month is : January");
+    } else if (n==2)
+    {
+        printf(" The Month is : february");
+    } else if (n==3)
+    {
+        printf(" The Month is : march");
+    } else if (n==4)
+    {
+        printf(" The Month is : april");
+    } else if (n==5)
+    {
+        printf(" The Month is : may");
+    } else if (n==6)
+    {
+        printf(" The Month is : june");
+    } else if (n==7)
+    {
+        printf(" The Month is : july");
+    } else if (n==8)
+    {
+        printf(" The Month is : august");
+    } else if (n==9)
+    {
+        printf(" The Month is : setember");
+    } else if (n==10)
+    {
+        printf(" The Month is : october");
+    } else if (n==11)
+    {
+        printf(" The Month is : november");
+    } else if (n==12)
+    {
+        printf(" The Month is : december");
+    }
+    else{
+        printf("invalid Month");
+    }
+    
+    
+    
+    
+    
+    return 0;
+}
