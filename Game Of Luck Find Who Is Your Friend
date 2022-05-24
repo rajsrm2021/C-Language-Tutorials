@@ -1,0 +1,83 @@
+/*This program is for fun purpose, in this you have to write your name and you will get
+  know who is your friend.*/
+
+
+#include<stdio.h>
+int main(int argc, char const *argv[])
+{
+    char n;
+    printf("Lets Start The Game Of Luck And See who Is Your Frirnd\n");
+   printf("Enter the your name : ");
+   n=getchar();
+
+
+   if (n=='a' || n=='z' || n=='A' || n=='Z')
+   {
+       printf("your friend is : seema" );
+   }
+   else if (n=='b' || n=='y'|| n=='Y'|| n=='B')
+   {
+       printf("your friend is : isha" );
+   }
+   else if (n=='c' || n=='x'|| n=='X'|| n=='C')
+   {
+       printf("your friend is : pushpa" );
+   }
+   else if (n=='d' || n=='w'|| n=='W'|| n=='D')
+   {
+       printf("your friend is : neha" );
+   }
+   else if (n=='e' || n=='v'|| n=='V'|| n=='E')
+   {
+       printf("your friend is : rani" );
+   }
+   else if (n=='f' || n=='u'|| n=='F'|| n=='U')
+   {
+       printf("your friend is : kazal" );
+   }
+   else if (n=='g' || n=='t' || n=='G'|| n=='T')
+   {
+       printf("your friend is : moti" );
+   }
+   else if (n=='h' || n=='s'|| n=='S'|| n=='H')
+   {
+       printf("your friend is : preeti" );
+   }
+   else if (n=='i' || n=='r'|| n=='I'|| n=='R')
+   {
+       printf("your friend is : isha" );
+   }
+   else if (n=='j' || n=='q'|| n=='J'|| n=='Q')
+   {
+       printf("Who Is your friend I don't know, GOD KNOWS\n");
+       printf("But Don't loose hope someone will come........\n");
+       printf("Take Care!!......");
+   }
+   else if (n=='k' || n=='p'|| n=='K'|| n=='P')
+   {
+       printf("your friend is : Radha\n" );
+       printf("Lucky One");
+   }
+   else if (n=='l'|| n=='L' )
+   {
+       printf("your friend is : pammi" );
+   }
+   else if (n=='m'|| n=='M')
+   {
+       printf("your friend is : jyoti" );
+   }
+   else if (n=='n' || n=='N')
+   {
+       printf("your friend is : anushka" );
+   }
+   else if (n=='o' || n=='O')
+   {
+       printf("your friend is : Dibya" );
+   }
+   else{
+       printf("Who Is your friend I don't know, GOD KNOWS\n");
+       printf("But Don't loose hope someone will come........\n");
+       printf("Take Care!!......");
+   }
+    return 0;
+}
