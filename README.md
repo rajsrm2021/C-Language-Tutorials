@@ -1,4 +1,4 @@
-# Raj-kumar-jaiswal
+# C-Language Tutorials
 
 ## 👋 Hi, I’m @rajsrm2021
 ## 👀 I’m interested in learning coading.
